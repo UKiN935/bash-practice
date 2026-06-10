@@ -1,3 +1,5 @@
-#/bin/bash
+#!/bin/bash
 
-git log --since="today" --oneline
+echo "Script started...."
+git log --since="24 hours ago" --oneline
+echo "Script ended xxxx"
